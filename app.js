@@ -1,1 +1,3 @@
-console.log("asdasd")
+const arrow = document.querySelector(".arrow");
+
+console.log(arrow)
