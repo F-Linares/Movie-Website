@@ -148,12 +148,15 @@ body {
 
 .movie-list-wrapper {
     position: relative;
+    overflow: hidden;
 }
 
 .movie-list {
     display: flex;
     align-items: center;
     height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
 }
 
 .movie-list-item {
@@ -178,6 +181,7 @@ body {
     width: 270px;
     height: 200px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .movie-list-item-title {
@@ -229,4 +233,8 @@ body {
     color: lightgray;
     opacity: .5;
     cursor: pointer;
+}
+
+.container {
+    background-color: white;
 }
